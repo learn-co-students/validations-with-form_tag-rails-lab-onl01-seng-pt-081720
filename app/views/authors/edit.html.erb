@@ -18,7 +18,7 @@
 
   <div class="field<%= ' field_with_errors' if @author.errors[:email].any? %>">
     <%= label_tag "email", "email" %>
-    <p>Must be either "Fiction" or "Non-Fiction".</p>
+    <p>Must be a valid email".</p>
     <%= text_field_tag "email", @author.email %>
     <p>
       Please type carefully as our top scientists are working around the clock to
