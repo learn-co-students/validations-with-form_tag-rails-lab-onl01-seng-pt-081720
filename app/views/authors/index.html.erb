@@ -1,0 +1,7 @@
+<h3>Authors:</h3>
+
+<% Author.all.each do |author| %> 
+    <li><%= author.name %>: <br>
+    Email: <%= author.email %> <br>
+    Phone Nunber: <%= author.phone_number %></li>
+<% end %>
