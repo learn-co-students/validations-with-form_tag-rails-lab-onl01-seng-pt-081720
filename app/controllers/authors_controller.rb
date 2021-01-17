@@ -6,6 +6,7 @@ class AuthorsController < ApplicationController
 
   def new
     @author = Author.new
+    # binding.pry
   end
 
   def create
